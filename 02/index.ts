@@ -1,6 +1,6 @@
 import { escreverArquivo, lerArquivo } from "../01/index";
 
-type Usuario = {
+export type Usuario = {
     nome: string,
     email: string,
     cpf: string,
@@ -8,7 +8,7 @@ type Usuario = {
     endereco: Endereco | null
 };
 
-type Endereco = {
+export type Endereco = {
     cep: string,
     rua: string,
     complemento?: string,
